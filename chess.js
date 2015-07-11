@@ -2,7 +2,6 @@
 function chessGrid(width, height) {
   var even = ' ', odd = '#', down = '\n';
   for (var h = 0; h <= height; h++) {
-    // 'line' must be defined inside this loop to initiate
     var row = '';
     for (var w=0; w<=width; w++) {
       if (w % 2 === 0) {
