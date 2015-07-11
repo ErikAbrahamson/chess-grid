@@ -21,4 +21,4 @@ var even = ' ', odd = '#', down = '\n';
 }
 
 //test
-chessGrid(8,8);
+chessGrid(10,10);
