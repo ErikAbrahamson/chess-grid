@@ -1,8 +1,8 @@
-function chessGrid(width,height) {
+function chessGrid(width, height) {
 var even = ' ', odd = '#', down = '\n';
-  for (var h=0; h<=height; h++) {
+  for (var h = 0; h <= height; h++) {
+    // must be defined inside this loop
     var line = '';
-
     for (var w=0; w<=width; w++) {
       if (w % 2 === 0) {
         line +=even;
