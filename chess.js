@@ -1,4 +1,4 @@
-// My solution for chess-board
+// My solution for chess-grid
 function chessGrid(width, height) {
   var even = ' ', odd = '#', down = '\n';
   for (var h = 0; h <= height; h++) {
